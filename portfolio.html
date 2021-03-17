@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Manish Kumar | My Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Patua+One%7CRusso+One" rel="stylesheet">  
+    <link type="text/css" rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/styles.css'>    
+</head>
+<body>
+    <header>
+        <div class="top_header">
+                <div class="row">
+                    <div class="col-3"><h1><span>My</span> Profile</h1></div>
+                    <div class="col-9 profile">
+                        <div class="profile_image">    
+                            <img src="images/manish.jpg" alt="Manish Kumar" />
+                        </div>
+                        <div class="profile_name">
+                            <p>Manish Kumar</p>
+                            <span>UI Developer</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </header>
+    
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-3 leftsidebar">
+            <!-- Vertical navbar -->
+            <div class="vertical-nav bg-light" id="sidebar">   
+
+                <p class="text-uppercase px-3 small mb-0 experience_heading">4+ Yrs Experience</p>
+                
+                <div class="menu">
+                    <ul class="nav flex-column bg-light mb-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-dark bg-light">
+                                <i class="fa fa-home mr-3 text-primary fa-fw"></i>
+                                Home
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="experience.html" class="nav-link text-dark bg-light">
+                                <i class="fa fa-black-tie mr-3 text-primary fa-fw"></i>
+                                Experience
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="skills.html" class="nav-link text-dark bg-light">
+                                <i class="fa fa-cogs mr-3 text-primary fa-fw"></i>
+                                Skills
+                            </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="software-proficiency.html" class="nav-link text-dark">
+                                <i class="fa fa-briefcase mr-3 text-primary fa-fw"></i>
+                                Software Proficiency
+                            </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="portfolio.html" class="nav-link text-dark">
+                                <i class="fa fa-address-card-o mr-3 text-primary fa-fw"></i>
+                                My Portfolio
+                            </a>
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="contact_us">
+                    <div class="contact_details">
+                        <p><a href="mailto:mkumar.nalanda@gmail.com" class="small mb-0"><i class="fa fa-envelope"></i> manish.kmr1073@gmail.com</a></p>
+                        <p><a href="tel:+91-7982529366" class="small mb-0"><i class="fa fa-phone"></i> +91-7982529366</a>, <a href="tel:+91-8527208058" class="small mb-0">+91-8527208058</a></p>
+                        <p><a href="javascript:;" class="small mb-0"><i class="fa fa-skype"></i> mkumar.nalanda</a></p>
+                    </div>
+                </div>
+                <div class="actions resume">
+                    <a href="resume/manish_resume.docx" download><i class="fa fa-download"></i> My Resume</a>
+                </div>
+            </div>
+            <!-- End vertical navbar -->
+  
+        </div>
+        <div class="col-9 page-content p-3 portfolio_block" id="my_portfolio"> 
+            
+            <div class="section_title">
+                <h2>My Portfolio</h2>
+                <p>Check Out Some Of My Previous Works.</p>
+            </div>
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter=".web, .logo, .card, .post, .design">All Works</span></li>
+                    <li><span class="filter" data-filter=".web">Web Design</span></li>
+                    <!--<li><span class="filter" data-filter=".logo">Logo Design</span></li>--> 
+                    <li><span class="filter" data-filter=".card">Visiting Card</span></li> 
+                    <li><span class="filter" data-filter=".post">Post Design</span></li> 
+                    <!--<li><span class="filter" data-filter=".design">Design</span></li>--> 
+                </ul>
+                <div id="portfoliolist" class="clearfix">
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/dhntechnologies.jpg" alt="DHN Technologies" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/dhn-technologies.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="http://www.dhntechnologies.in/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">DHN Technologies</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/perfectlivingsolutions.jpg" alt="Perfect Living Solutions" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/perfectlivingsolutions-in.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://www.perfectlivingsolutions.in/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Perfect Living Solutions</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/tradologie.jpg" alt="Tradologie" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/tradologie-lp.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://www.tradologie.com/lp/index.html" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Tradologie</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/pluss.jpg" alt="Pluss" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/pluss-in.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://www.pluss.in/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Pluss</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/revolutionplussize.jpg" alt="Revolution Plus Size" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/revolutionplussize.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="http://www.revolutionplussize.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Revolution Plus Size</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/sonapapers.jpg" alt="Sona Papers" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/sonapapers.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://www.sonapapers.com/home" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Sona Papers</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/vardaan-net.jpg" alt="Vardaan" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/vardaan-net.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://www.vardaan.net/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Vardaan</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/approachentertainment.jpg" alt="Approach Entertainment" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/approachentertainment.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="http://approachentertainment.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Approach Entertainment</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/vardaanhealthcare.jpg" alt="Vardaan Health Care" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/vardaanhealthcare.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="http://www.vardaanhealthcare.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Vardaan Health Care</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/p8.jpg" alt="IMT Faridabad" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/p8.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="http://www.hrdtechnology.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">HRD Technology</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/revxpert.jpg" alt="REV Xpert" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/revxpert.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://www.revxpert.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">REV Xpert</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio web" data-cat="web">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/p14.jpg" alt="Business Solutions Cloud" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/p14.jpg" data-fancybox="web"><i class="fa fa-search-plus"></i> </a>
+                                        <a href="https://businesssolutionsinthecloud.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Business Solutions Cloud</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio card" data-cat="card">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/v2.jpg" alt="Orange 4" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/v2.jpg" data-fancybox="card"><i class="fa fa-search-plus"></i> </a> 
+                                        <h3 class="work-title">Orange 4</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio card" data-cat="card">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/v1.jpg" alt="Golden Tobie Ltd." />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/v1.jpg" data-fancybox="card"><i class="fa fa-search-plus"></i> </a> 
+                                        <h3 class="work-title">Golden Tobie Ltd.</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio card" data-cat="card">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/v3.jpg" alt="Adoak Media" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/v3.jpg" data-fancybox="card"><i class="fa fa-search-plus"></i> </a> 
+                                        <a href="http://www.adoakmedia.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                                        <h3 class="work-title">Adoak Media</h3>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_102.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_102.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_103.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_103.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_104.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_104.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_105.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_105.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a>
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_106.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_106.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_107.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_107.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_108.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_108.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_109.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_109.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_110.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_110.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_111.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_111.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_112.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_112.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_113.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_113.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_114.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_114.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_115.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_115.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio post" data-cat="post">
+                        <div class="portfolio-wrapper">	
+                            <a href="javascript:void(0)" >
+                                <img src="images/portfolio-thumb/Robothlon_116.png" alt="Robothlon" />
+                            </a>
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="label-text-cell">
+                                        <a href="images/portfolio-big/Robothlon_116.png" data-fancybox="post"><i class="fa fa-search-plus"></i> </a> 
+                                    </div> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>			
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2021 <a href="javascript:;" title="Manish Kumar">Manish Kumar</a>. All Rights Reserved. <a href="https://validator.w3.org/" target="_blank"><img src="images/w3c.png" alt="Markup Validation Service" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script>
+        $(function() {
+            $('#sidebarCollapse').on('click', function() {
+                $('#sidebar, #content').toggleClass('active');
+            });
+        });
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.js"></script> 
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script>
+        $("[data-fancybox]").fancybox({ 
+        });
+    </script>
+    <script> 
+      var highestCol = $(window).height(); 
+        $('.match').height(highestCol);
+        
+     $('.moover_btn,.my_portfolio,.meet_me .nav-link, .scroll_top, .skills_section a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        return false;
+    });
+    
+    </script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script>
+    $(function () {
+        var filterList = {
+            init: function () {
+                $('#portfoliolist').mixItUp({
+                selectors: {
+                  target: '.portfolio',
+                  filter: '.filter'	
+              },
+              load: {
+              filter: '.web'  
+            }     
+                });								
+            }
+        };
+        filterList.init();
+    });	
+    $(window).scroll(function() {
+        if($(this).scrollTop()>50) {
+            $( ".meet_me" ).addClass("sticky_me");
+            $( ".scroll_top" ).addClass("active");
+        } else {
+            $( ".meet_me" ).removeClass("sticky_me");
+            $( ".scroll_top" ).removeClass("active");
+        }
+    });
+    $('.meet_me .navbar-nav .nav-link,body').on('click',function() {
+      $('.navbar-collapse').collapse('hide');
+    });
+    </script>
+</body>
+</html>

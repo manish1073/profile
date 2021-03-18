@@ -2,6 +2,8 @@
 html {font-family: 'Roboto Condensed', sans-serif;/* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */}
 body {font-family: 'Roboto Condensed', sans-serif; min-height: 100vh; overflow-x: hidden; }
 .top_header .row {margin:0px 25px;}
+.top_header h1 a{color:#fff; cursor: pointer;}
+.top_header h1 a:hover{color:#fff;}
 header{max-height: 78px; position: fixed; z-index:10; width: 100%; box-shadow: 0 2px 5px #a0a0a0; background: rgb(24,103,168); background: linear-gradient(180deg, rgba(24,103,168,1) 20%, rgba(90,133,238,1) 100%); color:#fff;} 
 header h1{line-height: 78px;  font-family: "Patua One",cursive; font-size: 35px;}
 header h1 span{color: #ffb300;}
@@ -21,6 +23,8 @@ header .profile .profile_image{display: inline-block;}
 .contact_us .contact_details a{ color:#343a40;}
 .contact_us .contact_details a:hover{color:#aaa; text-decoration: none;}
 .resume{text-align: center;}
+
+#sidebarCollapse{display: none;}
 
 @keyframes animate { 
   0% { 
@@ -54,7 +58,7 @@ header .profile .profile_image{display: inline-block;}
 }
 
 .page-content {
-  width: calc(100% - 17rem);
+  /* width: calc(100% - 17rem); */
   /* margin-left: 17rem; */
   transition: all 0.4s;
   top: 80px;
@@ -82,10 +86,19 @@ header .profile .profile_image{display: inline-block;}
     width: 100%;
     margin: 0;
   }
-  #content.active {
+  /* #content.active {
     margin-left: 17rem;
     width: calc(100% - 17rem);
+  } */
+
+  .top_header h1 label{display:none;}
+  header .profile {
+    text-align: left;
   }
+
+  #sidebarCollapse{display: block; z-index: 99 !important;}
+  #content, #skills_section, #my_portfolio{z-index:-10 !important;}
+  .menu {margin-bottom: 35px; margin-top: 30px;}
 }
 
 /*
@@ -118,11 +131,19 @@ a.bg-light:focus, a.bg-light:hover, button.bg-light:focus, button.bg-light:hover
   background: #5a85ee!important; 
 }
 
-.leftsidebar .active a, .leftsidebar .active i{
+/* .leftsidebar .active a, .leftsidebar .active i{
+  color: #fff!important; 
+  background: #5a85ee!important; 
+} */
+
+.leftsidebar li.nav-item.active, .leftsidebar li.nav-item.active a{
   color: #fff!important; 
   background: #5a85ee!important; 
 }
 
+.leftsidebar li.nav-item.active i{
+  color:#fff !important;
+}
 
 
 
@@ -1066,7 +1087,7 @@ footer a img {
   margin: 0 0 30px;
 }
 .actions {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 #portfoliolist .portfolio {
   width: 49.1%;

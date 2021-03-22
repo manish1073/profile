@@ -75,6 +75,22 @@ header .profile .profile_image{display: inline-block;}
   margin: 0;
 }
 
+@media (max-width: 500px) {
+	.top_header .row {
+		margin: 0px 10px;
+	}
+	.profile .profile_name {
+		margin: 16px 0px;
+	}
+	.profile .profile_name p {
+        	font-size: 16px;
+	}
+	.profile .profile_name span {
+        	font-size: 11px;
+		letter-spacing: 4px;	
+	}
+}
+
 @media (max-width: 768px) {
   #sidebar {
     margin-left: -17rem;

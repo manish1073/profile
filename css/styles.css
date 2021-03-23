@@ -25,7 +25,9 @@ header .profile .profile_image{display: inline-block;}
 .resume{text-align: center;}
 .leftsidebar{position:relative; z-index:999;}
 #sidebarCollapse{display: none;}
-
+.leftsidebar a.text-dark:focus, .leftsidebar a.text-dark:hover {
+    color: #ffffff!important;
+}
 @keyframes animate { 
   0% { 
       opacity: 0; 

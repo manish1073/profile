@@ -23,7 +23,7 @@ header .profile .profile_image{display: inline-block;}
 .contact_us .contact_details a{ color:#343a40;}
 .contact_us .contact_details a:hover{color:#aaa; text-decoration: none;}
 .resume{text-align: center;}
-
+.leftsidebar{position:relative; z-index:999;}
 #sidebarCollapse{display: none;}
 
 @keyframes animate { 
@@ -113,7 +113,7 @@ header .profile .profile_image{display: inline-block;}
   }
 
   #sidebarCollapse{display: block; z-index: 99 !important;}
-  #content, #skills_section, #my_portfolio{z-index:-10 !important;}
+  #content, #skills_section, #my_portfolio{z-index:0 !important;}
   .menu {margin-bottom: 35px; margin-top: 30px;}
 }
 
@@ -139,7 +139,8 @@ header .profile .profile_image{display: inline-block;}
 }
 
 
-a.text-dark:hover, .leftsidebar li.nav-item:hover i{
+a.text-dark:hover, .
+sidebar li.nav-item:hover i{
   color: #fff!important;   
 }
 
